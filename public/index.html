@@ -18,33 +18,12 @@ section{padding:64px 6%}.container{max-width:1180px;margin:auto}.section-head{te
 .news{border-left:5px solid var(--gold)}.contact{display:grid;grid-template-columns:1fr 1fr;gap:20px}.contact .card{box-shadow:none}.contact a{color:var(--blue);font-weight:700}.backtop{position:fixed;right:20px;bottom:20px;background:var(--navy);color:#fff;border:0;width:42px;height:42px;border-radius:50%;box-shadow:var(--shadow)}footer{background:#071f33;color:#dfeaf1;text-align:center;padding:30px 6%;margin-top:0}footer strong{color:#fff}
 @media(max-width:800px){.hero h2{font-size:35px}.about-grid,.video,.contact{grid-template-columns:1fr}.tqo{flex-direction:column;align-items:flex-start}.tqo img{width:100%;height:auto;max-height:360px}.topbar{display:none}nav{gap:3px}nav a{font-size:13px;padding:7px 8px}.search{flex-direction:column}.search button{padding:13px}.facts{grid-template-columns:1fr 1fr}}
 @media(max-width:480px){section{padding:48px 5%}.brand h1{font-size:19px}.logo{width:60px;height:60px}.hero{min-height:480px}.hero h2{font-size:31px}.facts{grid-template-columns:1fr}.tqo{padding:17px}}
-
-.video-service-box{background:linear-gradient(135deg,#071f33,#126a9b);color:#fff;border-radius:18px;padding:28px;box-shadow:var(--shadow);text-align:center}
-.video-service-box h3{margin:0 0 6px;font-size:28px;color:#fff}
-.video-service-box>p{margin:0 0 22px;color:#dfeaf1}
-.cluster-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:20px}
-.cluster-btn{border:1px solid rgba(255,255,255,.25);background:rgba(255,255,255,.10);color:#fff;padding:18px;border-radius:12px;font-size:17px;font-weight:800;cursor:pointer;transition:.2s}
-.cluster-btn:hover{background:rgba(255,255,255,.20);transform:translateY(-2px)}
-.cluster-btn small{display:block;font-size:12px;font-weight:400;margin-top:4px;color:#dfeaf1}
-.cluster-detail{display:none;margin-top:22px;background:#fff;color:var(--ink);border-radius:14px;padding:22px;text-align:left;border:1px solid var(--line)}
-.cluster-detail h4{margin:0 0 8px;color:var(--navy);font-size:23px}
-.cluster-detail p{margin:0 0 14px;color:var(--muted)}
-.cluster-rooms{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:12px}
-.room-choice{border:1px solid var(--line);background:#f7fafc;padding:15px;border-radius:10px}
-.room-choice b{color:var(--navy)}
-.room-choice button{margin-top:10px}
-@media(max-width:700px){.cluster-grid{grid-template-columns:1fr}}
-
-.court-entry{width:100%;border:0;border-radius:16px;padding:20px;text-align:left;background:rgba(255,255,255,.10);color:#fff;cursor:pointer;box-shadow:0 8px 24px rgba(0,0,0,.12);transition:.2s}
-.court-entry:hover{transform:translateY(-2px);background:rgba(255,255,255,.15)}
-.court-entry span{display:block;font-size:1.25rem;font-weight:800}
-.court-entry small{display:block;margin-top:6px;opacity:.85;font-size:.9rem}
 </style>
 </head>
 <body>
 <div class="topbar"><span>⚖️ Tajaajila Haqaa • Ifa • Saffisaa • Amanamaa</span><span>📍 Nageellee Arsii, Oromiyaa, Itoophiyaa</span></div>
 <header><img class="logo" src="/images/logo.jpg" alt="Loogoo Mana Murtii"><div class="brand"><h1>Mana Murtii Aanaa Nageellee Arsii</h1><p>Website Odeeffannoo fi Tajaajila Mana Murtii</p></div></header>
-<nav aria-label="Main navigation"><a href="#home">Jalqaba</a><a href="#about">Waa'ee Keenya</a><a href="#sections">Kutaalee</a><a href="#services">Tajaajiloota</a><a href="#tqo">TQO</a><a href="#video-service">Tajaajila Viidiyoo</a><a href="#video">Viidiyoo</a><a href="#hearing">Dhaddacha</a><a href="#cases">Barbaacha Galmee</a><a href="#news">Oduu</a><a href="#contact">Nu Qunnamaa</a></nav>
+<nav aria-label="Main navigation"><a href="#home">Jalqaba</a><a href="#about">Waa'ee Keenya</a><a href="#sections">Kutaalee</a><a href="#services">Tajaajiloota</a><a href="#tqo">TQO</a><a href="#video">Viidiyoo</a><a href="#hearing">Dhaddacha</a><a href="#cases">Barbaacha Galmee</a><a href="#scan-report">Gabaasa Scan</a><a href="#news">Oduu</a><a href="#contact">Nu Qunnamaa</a></nav>
 
 <main>
 <section class="hero" id="home"><div class="hero-inner"><span class="eyebrow">MANA MURTII AANAA NAGEELLEE ARSII</span><h2>Baga Nagaan Dhuftan!</h2><p>Website odeeffannoo, tajaajila uummataa fi hojiiwwan Mana Murtii Aanaa Nageellee Arsii bakka tokkootti walitti qabu.</p><div class="actions"><a class="btn" href="#services">Tajaajiloota Ilaali</a><a class="btn alt" href="#cases">Barbaacha Galmee</a></div></div></section>
@@ -78,34 +57,6 @@ section{padding:64px 6%}.container{max-width:1180px;margin:auto}.section-head{te
 
 <section id="services" class="services"><div class="container"><div class="section-head"><h2>Tajaajiloota</h2><p>Tajaajiloota website irratti argaman.</p></div><div class="grid"><div class="card"><div class="icon">📄</div><h3>Galmee Dhimmaa</h3><p>Odeeffannoo fi adeemsa galmee dhimmaa.</p></div><div class="card"><div class="icon">🔎</div><h3>Barbaacha Galmee</h3><p>Lakkoofsa <b>Galmee</b> fayyadamuun barbaacha.</p></div><div class="card"><div class="icon">📅</div><h3>Sagantaa Dhaddachaa</h3><p>Sagantaa dhaddachaa fi odeeffannoo beellamaa.</p></div><div class="card"><div class="icon">⚖️</div><h3>Tajaajila Seeraa</h3><p>Odeeffannoo tajaajila seeraa fi qajeelfama.</p></div></div></div></section>
 
-
-<section id="video-service">
-  <div class="container">
-    <div class="section-head">
-      <h2>Tajaajila Viidiyoo Konfiransii</h2>
-      <p>Mana Murtii Aanaa Nageellee Arsii</p>
-    </div>
-    <div class="video-service-box">
-      <button class="court-entry" type="button" onclick="openCourtClusters()" aria-expanded="false" id="courtEntry">
-        <span>Mana Murtii Aanaa Nageellee Arsii</span>
-        <small>Cuqaasiitii kilaastara Tajaajila Viidiyoo Konfiransii filadhu</small>
-      </button>
-      <div id="courtClusters" style="display:none">
-        <p>Tajaajila Viidiyoo Konfiransii keessaa kilaastara barbaadde cuqaasi. Kilaastara kamiyyuu cuqaasuun Google Meet ni bana.</p>
-        <div class="cluster-grid">
-          <button class="cluster-btn" type="button" onclick="openClusterMeet('Doolee')">1. Doolee<small>Google Meet seenuuf cuqaasi</small></button>
-          <button class="cluster-btn" type="button" onclick="openClusterMeet('Leephis')">2. Leephis<small>Google Meet seenuuf cuqaasi</small></button>
-          <button class="cluster-btn" type="button" onclick="openClusterMeet('Qaloo')">3. Qaloo<small>Google Meet seenuuf cuqaasi</small></button>
-          <button class="cluster-btn" type="button" onclick="openClusterMeet('W/P/Aanaa')">4. W/P/Aanaa<small>Google Meet seenuuf cuqaasi</small></button>
-          <button class="cluster-btn" type="button" onclick="openClusterMeet('W/P/Magaalaa')">5. W/P/Magaalaa<small>Google Meet seenuuf cuqaasi</small></button>
-          <button class="cluster-btn" type="button" onclick="openClusterMeet('W/Abbaa Alangaa')">6. W/Abbaa Alangaa<small>Google Meet seenuuf cuqaasi</small></button>
-        </div>
-        <div id="clusterSelected" style="margin-top:18px;font-weight:800;color:#fff"></div>
-      </div>
-    </div>
-  </div>
-</section>
-
 <section id="video"><div class="container"><div class="section-head"><h2>Dhaddacha Viidiyoo Konfiransii</h2><p>Tajaajila dhaddacha viidiyoo irratti odeeffannoo fi qophii.</p></div><div class="video"><div class="video-panel"><span class="tag" style="background:rgba(255,255,255,.14);color:#fff">VIDEO CONFERENCE</span><h3>Dhaddacha Fageenyaan</h3><p>Teknooloojii viidiyoo fayyadamuun dhaddacha qindaa’aa fi nageenya qabu deeggaruuf kutaan Viidiyoo Konfiransii tajaajila.</p><a class="btn" href="#contact">Odeeffannoo Dabalataa</a></div><div class="steps"><div class="step"><b>1</b><div><strong>Qophii</strong><br><span class="muted">Yeroo fi kutaa dhaddachaa mirkaneessi.</span></div></div><div class="step"><b>2</b><div><strong>Walqunnamtii</strong><br><span class="muted">Linkii ykn qajeelfama dhaddachaa hordofi.</span></div></div><div class="step"><b>3</b><div><strong>Dhaddacha</strong><br><span class="muted">Qajeelfama mana murtii eeguun hirmaadhu.</span></div></div></div></div></div></section>
 
 <section id="login"><div class="container"><div class="section-head"><h2>Seensa Sirna Dhaddachaa</h2><p>Hojjetaa ykn hirmaataa hayyamameen seeni.</p></div><div class="search-box"><div class="grid"><div><label>Username</label><input id="username" placeholder="admin" style="width:100%;padding:12px;border:1px solid #cbd7df;border-radius:8px"></div><div><label>Password</label><input id="password" type="password" placeholder="Password" style="width:100%;padding:12px;border:1px solid #cbd7df;border-radius:8px"></div></div><button class="btn" style="margin-top:14px" onclick="login()">Seeni</button><button class="btn alt" style="margin-top:14px;margin-left:8px;color:var(--navy);border-color:var(--navy);display:none" id="logoutBtn" onclick="logout()">Ba’i</button><div id="loginStatus" class="muted" style="margin-top:12px"></div></div></div></section>
@@ -113,6 +64,16 @@ section{padding:64px 6%}.container{max-width:1180px;margin:auto}.section-head{te
 <section id="hearing"><div class="container"><div class="section-head"><h2>Dhaddacha Viidiyoo Konfiransii</h2><p>Sagantaa dhaddachaa ilaali; erga seentee booda qofa gara kutaa viidiyoo seeni.</p></div><div id="hearingList" class="grid"><div class="card">Sagantaa fe’aa jira...</div></div><div id="hearingRoom" class="card" style="display:none;margin-top:22px;background:linear-gradient(135deg,#071f33,#126a9b);color:#fff"><span class="tag" style="background:rgba(255,255,255,.14);color:#fff">PRE-JOIN</span><h3 id="roomTitle" style="color:#fff">Kutaa Dhaddachaa</h3><p id="roomMeta"></p><div class="grid" style="margin-top:14px"><div style="background:rgba(255,255,255,.08);padding:16px;border-radius:12px"><b>1. Gahee kee</b><select id="participantRole" style="display:block;width:100%;margin-top:9px;padding:12px;border-radius:8px;border:0"><option>Hirmaataa</option><option>Abbaa Seeraa</option><option>Abbaa Alangaa</option><option>Abukaatoo</option><option>Himatamaa</option><option>Ragaa</option><option>Ofisera Seeraa</option></select></div><div style="background:rgba(255,255,255,.08);padding:16px;border-radius:12px"><b>2. Qophii</b><p style="margin:8px 0 0">Mikirofoonii fi kaameraa kee Google Meet keessatti qopheessi. Linkiin erga mirkanaa’ee booda qofa banama.</p></div></div><div class="actions" style="margin-top:18px"><button class="btn" onclick="enterRoom()">🎥 Google Meet Bani</button><button class="btn alt" onclick="closeRoom()">Cufi</button></div><div id="roomStatus" style="margin-top:12px"></div></div><div class="notice" style="margin-top:20px"><b>Nageenya:</b> Linkiin Google Meet server irraa dhufa; hirmaataan jalqaba seensa sirna kanaa mirkaneeffachuu qaba.</div></div></section>
 
 <section id="cases"><div class="container"><div class="section-head"><h2>Barbaacha Galmee — CCMS</h2><p>Lakkoofsa <b>Galmee</b> galchiitii barbaadi.</p></div><div class="search-box"><div class="search"><input id="q" aria-label="Lakkoofsa Galmee" placeholder="Lakkoofsa Galmee galchi..."><button onclick="searchCase()">Barbaadi</button></div><div id="results" class="results"></div></div></div></section>
+
+
+<section id="scan-report"><div class="container"><div class="section-head"><h2>Gabaasa Galmee Scan</h2><p>PDF haaraa kompiitara 001–006 irraa lakkaa’ame; Yakkaa fi HH addaan agarsiisa. PDFwwan ofii isaanii website irratti hin fe’aman.</p></div>
+<div class="search-box"><div class="grid">
+<div><label for="scanFrom">Guyyaa jalqabaa</label><input id="scanFrom" type="date" style="width:100%;padding:12px;border:1px solid #cbd7df;border-radius:8px"></div>
+<div><label for="scanTo">Guyyaa dhumaa</label><input id="scanTo" type="date" style="width:100%;padding:12px;border:1px solid #cbd7df;border-radius:8px"></div>
+</div><button class="btn" style="margin-top:14px" onclick="loadScanReport()">Gabaasa Ilaali</button><div id="scanReportStatus" class="muted" style="margin-top:12px">Gabaasa ilaaluuf Admin ykn Ofisera Seeraa ta’uun seeni.</div>
+<div id="scanReportResult" class="results"></div></div>
+<div class="notice" style="margin-top:18px"><b>Yaadachiisa:</b> Lakkoofsi kun PDF haaraa yeroo jalqabaaf argame irratti hundaa’a; fuulota PDF keessaa hin lakkaa’u. Kompiitara irratti scan-agent qindaa’ee fi database scan walitti hidhamee jiraachuu qaba.</div>
+</div></section>
 
 <section id="news"><div class="container"><div class="section-head"><h2>Oduu fi Beeksisa</h2><p>Odeeffannoo haaraa fi sochiiwwan mana murtii.</p></div><div class="grid"><div class="card news"><span class="tag">BEEKSISA</span><h3>Beeksisa Mana Murtii</h3><p>Beeksisawwan haaraa yeroo yerootti as irratti maxxanfamu.</p></div><div class="card news"><span class="tag">HOJII</span><h3>Hojiiwwan Mana Murtii</h3><p>Daawwannaa hojii, muuxannoo wal-jijjiiruu fi sochiiwwan mana murtii.</p></div><div class="card news"><span class="tag">DIJITAALAA</span><h3>Tajaajila Dijitaalaa</h3><p>Fooyya’iinsa website fi tajaajila odeeffannoo dijitaalaa.</p></div></div></div></section>
 
@@ -147,47 +108,34 @@ async function enterRoom(){
   try{const r=await fetch('/api/hearings/'+selectedHearing+'/join',{method:'POST',headers:{Authorization:'Bearer '+token,'Content-Type':'application/json'},body:JSON.stringify({role})});const d=await r.json();if(!r.ok)throw new Error(d.error||'Seensa hin hayyamamne.'); box.textContent='✓ Seensa mirkanaa’e. Google Meet banamaa jira...'; window.open(d.meetUrl,'_blank','noopener,noreferrer')}catch(e){box.textContent=e.message}
 }
 async function searchCase(){const q=document.getElementById('q').value.trim(),box=document.getElementById('results');if(!q){box.innerHTML='<div class="notice">Lakkoofsa Galmee galchi.</div>';return}box.innerHTML='<p class="muted">Barbaadaa jira...</p>';try{const r=await fetch('/api/cases?q='+encodeURIComponent(q));const data=await r.json();if(!r.ok){box.innerHTML='<div class="notice">'+esc(data.error||'Dogoggorri uumame.')+'</div>';return}box.innerHTML=data.length?data.map(x=>'<div class="result"><pre>'+esc(JSON.stringify(x,null,2))+'</pre></div>').join(''):'<div class="notice">Galmeen barbaadame hin argamne.</div>'}catch(e){box.innerHTML='<div class="notice">Server/database waliin walqunnamtiin hin jiru.</div>'}}
+
+function setScanWeek(){
+ const now=new Date(); const day=(now.getDay()+6)%7; const mon=new Date(now); mon.setDate(now.getDate()-day);
+ const fri=new Date(mon); fri.setDate(mon.getDate()+4);
+ const fmt=d=>`${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`;
+ document.getElementById('scanFrom').value=fmt(mon);document.getElementById('scanTo').value=fmt(fri);
+}
+async function loadScanReport(){
+ const box=document.getElementById('scanReportResult'),status=document.getElementById('scanReportStatus');
+ if(!token){status.textContent='Jalqaba seensa sirnaa mirkaneessi.';document.getElementById('login').scrollIntoView({behavior:'smooth'});return}
+ const from=document.getElementById('scanFrom').value,to=document.getElementById('scanTo').value;
+ if(!from||!to||from>to){status.textContent='Guyyaa jalqabaa fi dhumaa sirriitti filadhu.';return}
+ status.textContent='Gabaasa fe’aa jira...';box.innerHTML='';
+ try{
+  const r=await fetch('/api/scan/report?from='+encodeURIComponent(from)+'&to='+encodeURIComponent(to),{headers:{Authorization:'Bearer '+token}});
+  const d=await r.json();if(!r.ok)throw new Error(d.error||'Gabaasa argachuun hin danda’amne.');
+  if(!d.rows.length){status.textContent='Guyyaa filatame keessatti galmeen scan hin galmoofne.';return}
+  const total=d.rows.reduce((s,x)=>s+Number(x.recordCount||0),0);
+  const byComp={};for(const x of d.rows){const k=x.computerId+'|'+x.workerName+'|'+x.category;byComp[k]=(byComp[k]||0)+Number(x.recordCount||0)}
+  const summary=Object.entries(byComp).map(([k,v])=>{const [id,worker,cat]=k.split('|');return `<tr><td>${esc(id)}</td><td>${esc(worker)}</td><td>${esc(cat)}</td><td>${v}</td></tr>`}).join('');
+  const details=d.rows.map(x=>`<tr><td>${esc(x.scanDate)}</td><td>${esc(x.computerId)}</td><td>${esc(x.workerName)}</td><td>${esc(x.category)}</td><td>${Number(x.recordCount)}</td></tr>`).join('');
+  status.textContent=`Waliigala galmee: ${total}`;
+  box.innerHTML=`<h3>Waliigala kompiitaraa fi gosa galmee</h3><div style="overflow:auto"><table style="width:100%;border-collapse:collapse"><thead><tr><th style="text-align:left;padding:9px;border-bottom:1px solid #dce5ec">ID</th><th style="text-align:left;padding:9px;border-bottom:1px solid #dce5ec">Hojjetaa</th><th style="text-align:left;padding:9px;border-bottom:1px solid #dce5ec">Gosa</th><th style="text-align:left;padding:9px;border-bottom:1px solid #dce5ec">Lakkoofsa</th></tr></thead><tbody>${summary}</tbody></table></div><h3 style="margin-top:24px">Gabaasa guyyaa guyyaa</h3><div style="overflow:auto"><table style="width:100%;border-collapse:collapse"><thead><tr><th style="text-align:left;padding:9px;border-bottom:1px solid #dce5ec">Guyyaa</th><th style="text-align:left;padding:9px;border-bottom:1px solid #dce5ec">ID</th><th style="text-align:left;padding:9px;border-bottom:1px solid #dce5ec">Hojjetaa</th><th style="text-align:left;padding:9px;border-bottom:1px solid #dce5ec">Gosa</th><th style="text-align:left;padding:9px;border-bottom:1px solid #dce5ec">Lakkoofsa</th></tr></thead><tbody>${details}</tbody></table></div>`;
+ }catch(e){status.textContent=e.message;box.innerHTML=''}
+}
+
 document.getElementById('q').addEventListener('keydown',e=>{if(e.key==='Enter')searchCase()});
+setScanWeek();
 loadHearings();
-
-
-function openCourtClusters(){
-  const box=document.getElementById('courtClusters');
-  const btn=document.getElementById('courtEntry');
-  const open=box.style.display!=='none';
-  box.style.display=open?'none':'block';
-  btn.setAttribute('aria-expanded',String(!open));
-  if(!open){setTimeout(()=>box.scrollIntoView({behavior:'smooth',block:'center'}),100);}
-}
-function openClusterMeet(cluster) {
-
-  const meetLinks = {
-    'Doolee': 'https://meet.google.com/opa-fcvk-ijr',
-    'Leephis': 'https://meet.google.com/hig-tnxc-rqf',
-    'Qaloo': 'https://meet.google.com/ofu-wnsx-qmk',
-    'W/P/Aanaa': 'https://meet.google.com/npe-hnfi-rjy',
-    'W/P/Magaalaa': 'https://meet.google.com/oyy-fcsa-szu',
-    'W/Abbaa Alangaa': 'https://meet.google.com/ysv-htvk-mjy'
-  };
-
-  const meetUrl = meetLinks[cluster];
-  const status = document.getElementById('clusterSelected');
-
-  if (!meetUrl) {
-    if (status) {
-      status.textContent = 'Linkiin kilaastara kanaa hin argamne.';
-    }
-    return;
-  }
-
-  if (status) {
-    status.textContent =
-      '✓ ' + cluster + ' filatame. Google Meet banamaa jira...';
-  }
-
-  window.open(meetUrl, '_blank', 'noopener,noreferrer');
-}
-async function openConference(){document.getElementById('conference').style.display='block';document.getElementById('conference').scrollIntoView({behavior:'smooth'});}
-async function joinConference(){const msg=document.getElementById('confMsg');msg.innerHTML='Seensa mirkaneessaa jira...';try{const login=await fetch('/api/login',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({username:document.getElementById('confUser').value,password:document.getElementById('confPass').value})});const ld=await login.json();if(!login.ok){msg.innerHTML='<div class="notice">'+(ld.error||'Login hin milkoofne.')+'</div>';return}const r=await fetch('/api/hearings/1/join',{method:'POST',headers:{'Content-Type':'application/json','Authorization':'Bearer '+ld.token},body:JSON.stringify({role:document.getElementById('confRole').value})});const d=await r.json();if(!r.ok){msg.innerHTML='<div class="notice">'+(d.error||'Seensa hin hayyamamne.')+'</div>';return}msg.innerHTML='<div class="notice">Seensi kee milkaaʼeera. <a class="btn" href="'+d.meetUrl+'" target="_blank" rel="noopener">🎥 Google Meet Bani</a></div>';}catch(e){msg.innerHTML='<div class="notice">Server waliin walqunnamtiin hin jiru.</div>';}}
 </script>
 </body></html>
