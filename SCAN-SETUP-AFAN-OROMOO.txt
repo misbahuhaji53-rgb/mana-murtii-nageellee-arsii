@@ -1,0 +1,27 @@
+# Scan Agent — Mana Murtii Aanaa Nageellee Arsii
+
+## Hojii isaa
+- Kompiitara Windows irratti folderoota `Yakkaa` fi `HH` keessaa PDF haaraa hordofa.
+- PDF guutummaatti save ta'ee sekondii 30 ol erga turan booda metadata qofa website irratti erga.
+- PDFwwan duraan folder keessa jiran yeroo jalqabaaf hin lakkaa'u.
+- PDF tokko maqaa jijjiiruun ykn copy gochuun hash isaa hin jijjiiramne taanaan kompiitara/gosa galmee sana keessatti irra deebi'ee hin lakkaa'u.
+- PDFn gara website/Render hin fe'amu; maqaa faayilaa, hash, gosa galmee, ID kompiitaraa fi lakkoofsa byte qofa erga.
+
+## Qindaa'ina jalqabaa
+1. Node.js 18+ install godhi (Node.js 24 ni hojjeta).
+2. `config.example.json` koppii godhi; maqaa isaa `config.json` godhi.
+3. `computerId` irratti ID kompiitaraa galchi: `001`, `002`, ... `006`.
+4. `workerName` irratti maqaa hojjetaa kompiitara sanaa galchi.
+5. `baseUrl` irratti URL website Render sirrii galchi.
+6. `agentKey` irratti gatii `SCAN_AGENT_KEY` Render keessatti kaa'ame galchi.
+7. Folder paths `C:\\Users\\...\\Desktop\\Yakkaa` fi `C:\\Users\\...\\Desktop\\HH` gara path sirrii kompiitara sanaatti jijjiiri. Desktop OneDrive keessa yoo ta'e, path OneDrive fayyadami.
+8. `JALQABI.bat` lama cuqaasi. Yeroo jalqabaaf `config.json` qopheessuuf ni banama; erga sirreessitee booda irra deebi'ii jalqabi.
+
+Kompiitara hundaa irratti folderii agent kana koppii godhi; `computerId` fi `workerName` addaan qindeessi. Kompiitaroonni website Render arguu danda'uu qabu.
+
+## Hubachiisa
+- Website API keessatti `SCAN_AGENT_KEY` fi database scan itti fufiinsa qabu qindaa'uu qabu.
+- `SCAN_DB_NAME` akka database scan addaatti qindeessi; database OICCMS/CCMS hojii irra jiru irratti hayyama malee table hin uumin.
+- SQL Server Render irraa networkiin argamuu qaba, user database table uumuu/insert/select gochuu danda'u qaba. Yoo database keessan office LAN qofa keessatti baname, Render irraa kallattiin hin argamu; database hosted/VPN ykn architecture LAN biraa barbaachisa.
+- Render free filesystem keessatti daataa faayilii irratti kuusuun itti fufiinsa hin qabu; kanaaf sirni kun SQL Server persistent database fayyadama.
+- Gabaasa argachuuf website irratti Admin ykn Ofisera Seeraa ta'uun seeni; `Gabaasa Scan` bani; guyyaa filadhu.
